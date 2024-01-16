@@ -5,9 +5,12 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import java.time.LocalDateTime;
 import java.util.Optional;
 
+@CrossOrigin
 @Service
 public class ReviewService {
     @Autowired
